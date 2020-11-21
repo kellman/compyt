@@ -5,7 +5,7 @@ REQUIRED_PACKAGES = ['numpy', 'torch']
 
 setup(
     name='compyt',
-    version='1.2',
+    version='1.3',
     packages=['compyt'],
     author=['Michael Kellman'],
     author_email='michael.kellman@ucsf.edu',
