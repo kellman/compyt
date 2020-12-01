@@ -1,3 +1,3 @@
-# Complex Numbers for Pytorch
+# Centered FFTs for Pytorch
 
-A simple complex number module for Pytorch. Complex tensors are formed by concatenating the real and imaginary fields along the last dimension. Supports complex multiplication, division, exponentiation, absolute value, squared absolute value, and conjugate. Further, several functions for converting between Numpy complex numbers and Pytorch complex tensors are made available.
+Pytorch ffts center the dc component at the first position along each dimension, (0,0, ..., 0). However, it is easier to generate and visualize point spread functions as centered functions. fftshift and ifftshift enables easy transfer from zero and centered spaces. This package fills the void with an implementation of centered fft and iffts.
