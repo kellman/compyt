@@ -1,3 +1,12 @@
-# Centered FFTs for Pytorch
+# Complex number support for Pytorch
 
-Pytorch ffts center the dc component at the first position along each dimension, (0,0, ..., 0). However, it is easier to generate and visualize point spread functions as centered functions. fftshift and ifftshift enables easy transfer from zero and centered spaces. This package fills the void with an implementation of centered fft and iffts.
+This python library implements differentiable complex operations for use in Pytorch (multiply, divide, exponentiate, power, etc). Complex tensors are structured as Pytorch tensors followed by an extra dimension of size two and store the real and imaginary components.  
+
+## Install
+
+python setup.py
+
+## Comment
+
+Since the recent rollout of complex type support in Pytorch, support of this library has been retired.
+
